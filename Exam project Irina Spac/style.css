@@ -1,0 +1,284 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+             }
+    
+main{
+    display: grid;
+}
+
+
+ @media only screen and (min-width:29em){
+      main{
+          
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+                    "as hd hd hd"
+                    "as art art art"
+                    "as art art art"
+                    "as art art art"
+            "as link link link"
+    }
+     
+    
+#side{
+         grid-area: as;
+         grid-column: 1/2;
+         background-image: url(irina.jpg);
+         background-size: cover;
+         height: 104%;
+   
+        
+     }
+     
+     header{
+         grid-area: hd;
+         grid-column: 2/-1;
+        padding-bottom: 20px;
+         box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+         
+     }
+     
+     article{
+    
+         grid-column: 2/-1;
+         padding-left: 100px;
+         padding-right: 100px;
+         font-family: 'Bree Serif', serif;;
+         font-size: 18px;
+         text-align: center;
+        margin-top: 20px;
+        background-color: white;
+         
+     }
+
+p {
+    color: black;
+}
+
+
+     
+     button{
+        
+         background-color: grey;
+         box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+         border:none;
+          padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+         margin-left: 10px;
+         margin-right: 10px;
+         width: 200px;
+         font-size: 20px;
+     }  
+     
+.text-left{
+    text-align: middle;
+}
+
+.iva {
+    background-color: darkorange;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0 auto;
+    width: 20%;
+    font-family: 'Bree Serif', serif;
+    color: black;
+    
+}
+     section{
+         text-align: center;
+     }
+
+body{
+    margin: 0 auto;
+    background-color: white;
+    
+
+    
+}
+
+
+h1{
+    font-size: 60px;
+    font-family: Script MJ bold;
+    text-align: center;
+}
+     
+     h2{
+         font-size: 25px;
+     }  
+
+h3{
+   font-size: 30px;
+    text-align: center;
+}
+
+
+#intro {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('http://www.kwic.info/sites/default/files/Sharing%20Food.jpg') 100% 0 repeat-y fixed;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    
+   
+    )
+    
+}
+
+#app, #about{
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    border: white solid;
+    background: rgba(255, 255, 255, 0.7);
+    border-width: 2px;
+    
+}
+
+a{
+    color: black;
+    font-size: 20px;
+}
+
+a:hover{
+    color: black;
+    font-size:23px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+
+   
+     
+     #b3{
+         width: 100%;
+         padding-top: 50px;
+         padding-bottom:50px;
+         
+     }
+     
+     #appl a{
+         position: fixed;
+bottom: 10px;
+right: 10px;
+     }  
+     
+     
+     #images{
+         margin-left: 8%;
+         padding-top: 30px;
+     }
+
+     
+     div.gallery {
+    margin: 20px;
+    float: left;
+    width: 20%;
+    
+       
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+     text-align: center;
+    
+}
+
+div.desc {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size:20px; 
+    margin-top: 5px;
+    
+}
+
+body {
+    background-color: lightgrey;
+}
+
+a{
+    display: block;
+    padding:2px;
+    color:grey;
+}
+
+header{
+    grid-area: hd;
+    grid-column: 2/-1;
+   padding-bottom: 20px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+article{
+
+    grid-column: 2/-1;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Bree Serif', serif;;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+div {
+    background-color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+blockquote {
+    position: relative;
+    top: 100px;
+    left: 150px;
+    width: 565px;
+    font: 2.85em CallunaRegular;
+    letter-spacing: .075em;
+    float: left;
+    padding: 45px 0 30px 25px;
+    margin: 0;
+    border-top: 2px dotted #858585;
+    border-bottom: 2px dotted #858585;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    width:auto;
+    display:table
+
+}
